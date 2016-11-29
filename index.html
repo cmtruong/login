@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="satellizer.js"></script>
+	<script type="text/javascript" src="login.js"></script>
+</head>
+<body ng-app='myApp'>
+	<div ng-controller='loginFB'>
+		<button ng-click="authenticate('facebook')">
+          <i class="ion-social-facebook"></i> Sign in with Facebook
+        </button>
+	</div>
+</body>
+</html>
